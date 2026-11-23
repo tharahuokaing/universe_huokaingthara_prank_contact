@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="km" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - Prank Contact / ទំនាក់ទំនងកម្មវិធីលេងសើច</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Holographic Scanline Overlay -->
+    <div id="holo-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-masks-theater spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">ទំនាក់ទំនងកម្មវិធីលេងសើច / Prank Contact</span></h1>
+        </div>
+        <div class="controls">
+            <button id="langToggleBtn" class="control-btn">🇰🇭 / EN</button>
+            <button id="themeToggleBtn" class="control-btn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Hero Section -->
+        <section class="hero-card">
+            <div class="badge">🎭 UNIVERSE HUOKAING THARA • PRANK CONTACT DESK</div>
+            <h2 class="km">ទំនាក់ទំនងផ្នែកកម្សាន្តលេងសើច ស្នើគំនិត និងសហការ</h2>
+            <h2 class="en">Prank Desk, Comedy Pitches & Creator Inquiries</h2>
+            <p class="km">
+                ផ្ញើសារទាក់ទងនឹងគំនិតលេងសើចប្រកបដោយសុវត្ថិភាព ការចូលរួមសម្តែង ឬកិច្ចសហការកម្សាន្តទៅកាន់ <strong>UNIVERSE HUOKAING THARA Group</strong> ក្រោមការដឹកនាំរបស់ លោក <strong>ហួកាំង ថារ៉ា</strong> និងលោក <strong>សេង ឆាត</strong> រួមជាមួយការរួមចំណែកពីលោក <strong>ជອນ រតនៈ</strong> និងក្រុមអ្នកសរសេរកូដជំនាញ។
+            </p>
+            <p class="en">
+                Reach out with safe comedy pitches, cast/creator collaborations, or entertainment inquiries for <strong>UNIVERSE HUOKAING THARA Group</strong> under <strong>Mr. Huokaing Thara</strong> and <strong>Mr. Seng Chhat</strong>, with contributions from <strong>Mr. Chorn Rothanak</strong> and our elite programmers & developers.
+            </p>
+
+            <!-- Search & Filter Bar -->
+            <div class="search-filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="prankContactSearch" placeholder="ស្វែងរកផ្នែកទំនាក់ទំនង... / Search ideas, cast, safety, promos...">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill-btn active" data-filter="all">All / ទាំងអស់</button>
+                    <button class="pill-btn" data-filter="ideas">Idea Pitches / ស្នើគំនិត</button>
+                    <button class="pill-btn" data-filter="cast">Cast & Creators / សម្តែង</button>
+                    <button class="pill-btn" data-filter="feedback">Feedback & Safety / មតិ</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Desks Grid -->
+        <section class="desks-section">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-headset"></i>
+                <span class="km">ផ្នែកទទួលសំណួរកម្មវិធីលេងសើច (Prank Inquiry Desks)</span>
+                <span class="en">Prank Inquiry Desks</span>
+            </h3>
+
+            <div class="desks-grid" id="desksGrid">
+
+                <!-- Desk 1 -->
+                <article class="desk-card featured" data-cat="ideas">
+                    <div class="card-top">
+                        <span class="desk-code">PRK-DESK-01 • IDEA PITCH</span>
+                        <span class="status-pill">ACTIVE</span>
+                    </div>
+                    <h4 class="km">ស្នើគំនិតឈុតលេងសើច និងល្បែងសប្បាយ</h4>
+                    <h4 class="en">Safe Prank Concepts & Friendly Games</h4>
+                    <p class="km">ទទួលគំនិតថ្មីៗសម្រាប់ឈុតកំប្លែង សំណើច និងល្បែងកម្សាន្តប្រកបដោយភាពស្និទ្ធស្នាល។</p>
+                    <p class="en">Submit creative, lighthearted prank concepts, funny reveals, and friendly game ideas.</p>
+                    <div class="card-footer">
+                        <span class="desk-meta"><i class="fa-solid fa-lightbulb"></i> Idea Pitch</span>
+                        <button class="pick-topic-btn" data-topic="Safe Prank Concepts & Friendly Games">
+                            <span class="km">ជ្រើសរើស</span> / <span class="en">Use Topic</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Desk 2 -->
+                <article class="desk-card" data-cat="cast">
+                    <div class="card-top">
+                        <span class="desk-code">PRK-DESK-02 • CAST & CREATORS</span>
+                        <span class="status-pill">OPEN</span>
+                    </div>
+                    <h4 class="km">សហការសម្តែង និងអ្នកបង្កើតមាតិកាកំប្លែង</h4>
+                    <h4 class="en">Cast & Comedy Creator Collaborations</h4>
+                    <p class="km">សម្រាប់អ្នកសម្តែង អ្នកនិពន្ធឈុតកំប្លែង និងដៃគូផលិតមាតិកាដែលចង់ចូលរួមក្នុងគម្រោង។</p>
+                    <p class="en">For performers, comedy writers, and content creators looking to collaborate on episodes.</p>
+                    <div class="card-footer">
+                        <span class="desk-meta"><i class="fa-solid fa-users"></i> Cast & Creators</span>
+                        <button class="pick-topic-btn" data-topic="Cast & Comedy Creator Collaborations">
+                            <span class="km">ជ្រើសរើស</span> / <span class="en">Use Topic</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Desk 3 -->
+                <article class="desk-card" data-cat="feedback">
+                    <div class="card-top">
+                        <span class="desk-code">PRK-DESK-03 • FEEDBACK & SAFETY</span>
+                        <span class="status-pill">OPEN</span>
+                    </div>
+                    <h4 class="km">មតិយោបល់ សុវត្ថិភាព និងកិច្ចសហការផ្សាយ</h4>
+                    <h4 class="en">Viewer Feedback, Safety & Brand Tie-Ins</h4>
+                    <p class="km">ចែករំលែកមតិកែលម្អ សំណួរទាក់ទងនឹងសុវត្ថិភាពឈុតឆាក ឬការសហការផ្សព្វផ្សាយ។</p>
+                    <p class="en">Share audience feedback, safety/guidelines questions, or friendly campaign tie-in inquiries.</p>
+                    <div class="card-footer">
+                        <span class="desk-meta"><i class="fa-solid fa-shield-halved"></i> Feedback & Safety</span>
+                        <button class="pick-topic-btn" data-topic="Viewer Feedback, Safety & Brand Tie-Ins">
+                            <span class="km">ជ្រើសរើស</span> / <span class="en">Use Topic</span>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="form-card" id="prankContactFormBox">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span class="km">ទម្រង់ផ្ញើសារកម្មវិធីលេងសើច (Prank Contact Form)</span>
+                <span class="en">Prank Contact Form</span>
+            </h3>
+
+            <form id="prankContactForm" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="prankFullName">
+                            <span class="km">ឈ្មោះពេញ / Full Name *</span>
+                            <span class="en">Full Name *</span>
+                        </label>
+                        <input type="text" id="prankFullName" required placeholder="Your name / ឈ្មោះរបស់អ្នក">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="prankContactInfo">
+                            <span class="km">អ៊ីមែល ឬលេខទូរស័ព្ទ / Email or Phone *</span>
+                            <span class="en">Email or Phone *</span>
+                        </label>
+                        <input type="text" id="prankContactInfo" required placeholder="name@example.com or +855 ...">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="prankTopicSelect">
+                            <span class="km">ប្រធានបទ / Inquiry Topic</span>
+                            <span class="en">Inquiry Topic</span>
+                        </label>
+                        <select id="prankTopicSelect">
+                            <option value="Safe Prank Concepts & Friendly Games">Safe Prank Concepts & Friendly Games / ស្នើគំនិត</option>
+                            <option value="Cast & Comedy Creator Collaborations">Cast & Comedy Creator Collaborations / សហការសម្តែង</option>
+                            <option value="Viewer Feedback, Safety & Brand Tie-Ins">Viewer Feedback, Safety & Brand Tie-Ins / មតិ និងសុវត្ថិភាព</option>
+                            <option value="General Prank Inquiry">General Prank Inquiry / សំណួរទូទៅ</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="episodeRef">
+                            <span class="km">ឈ្មោះវគ្គ ឬគំនិត / Episode or Concept Title (Optional)</span>
+                            <span class="en">Episode or Concept Title (Optional)</span>
+                        </label>
+                        <input type="text" id="episodeRef" placeholder="e.g., Office Twist / ការភ្ញាក់ផ្អើលនៅការិយាល័យ">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="prankMessageBox">
+                        <span class="km">ខ្លឹមសារសារ / Message *</span>
+                        <span class="en">Message *</span>
+                    </label>
+                    <textarea id="prankMessageBox" rows="4" required placeholder="Share your comedy concept, collaboration note, or feedback..."></textarea>
+                </div>
+
+                <button type="submit" class="control-btn submit-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span class="km">ផ្ញើសារកម្មវិធីលេងសើច</span> / <span class="en">Send Prank Message</span>
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Receipt Modal -->
+    <div id="prankReceiptModal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <span class="modal-badge">PRANK INQUIRY LOGGED</span>
+            <h3>Prank Contact Confirmation</h3>
+            <div class="modal-body" id="prankReceiptContent"></div>
+            <div class="modal-actions">
+                <button id="copyPrankRefBtn" class="control-btn secondary-btn">
+                    <i class="fa-regular fa-copy"></i> Copy Ref
+                </button>
+                <button id="closePrankReceiptBtn" class="control-btn">
+                    <span class="km">បិទផ្ទាំង</span> / <span class="en">Close</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
